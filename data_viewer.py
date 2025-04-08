@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 设置图片和标注文件夹路径
-image_folder = r"D:\Learning\Master\Internship\Datasets\yolo_crack_datasets\images"  # 图片文件夹路径
-label_folder = r"D:\Learning\Master\Internship\Datasets\yolo_crack_datasets\labels"  # 标注文件夹路径
+image_folder = r""  # 图片文件夹路径
+label_folder = r""  # 标注文件夹路径
 
 # 获取所有图片文件（支持 jpg 和 png）
 image_files = [f for f in os.listdir(image_folder) if f.endswith(('.jpg', '.png'))]

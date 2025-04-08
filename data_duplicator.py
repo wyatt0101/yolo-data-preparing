@@ -2,9 +2,10 @@ import os
 import shutil
 
 # 设置标注文件、图像文件和目标文件夹的路径
-label_folder = r"D:\Learning\Master\Internship\Datasets\yolo_crack_datasets\labels"  # 请替换成你的标注文件夹路径
-image_folder = r"D:\Learning\Master\Internship\Datasets\UnLabel_Crack\labeled"  # 请替换成你的图像文件夹路径
-target_folder = r"D:\Learning\Master\Internship\Datasets\yolo_crack_datasets\images"  # 目标文件夹路径
+label_folder = r""  # 请替换成你的标注文件夹路径
+
+image_folder = r""  # from image_folder 请替换成你的图像文件夹路径
+target_folder = r""  # copy to target_folder 请替换成你的目标文件夹路径
 
 # 获取所有标注文件
 label_files = os.listdir(label_folder)

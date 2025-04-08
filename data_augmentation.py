@@ -5,10 +5,10 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
 # 输入/输出文件夹
-input_dir = "D:\Learning\Master\Internship\Datasets\yolo_crack_datasets_split\\train\images"  # 原始图片路径
-label_dir = "D:\Learning\Master\Internship\Datasets\yolo_crack_datasets_split\\train\labels"  # 原始标注路径
-output_dir = "D:\Learning\Master\Internship\Datasets\yolo_crack_datasets_split\dataset_aug\images"  # 增强后图片保存路径
-output_label_dir = "D:\Learning\Master\Internship\Datasets\yolo_crack_datasets_split\dataset_aug\labels"  # 增强后标注路径
+input_dir = "\Datasets\yolo_datasets_split\\train\images"  # 原始图片路径
+label_dir = "\Datasets\yolo_datasets_split\\train\labels"  # 原始标注路径
+output_dir = "\Datasets\yolo_datasets_split\dataset_aug\images"  # 增强后图片保存路径
+output_label_dir = "\Datasets\yolo_datasets_split\dataset_aug\labels"  # 增强后标注路径
 
 # 确保输出目录存在
 os.makedirs(output_dir, exist_ok=True)
