@@ -1,8 +1,8 @@
 import os
 
-# 定义图片和标注文件夹路径
-image_folder = r"D:\Learning\Master\Internship\Datasets\Non_Crack\images"
-label_folder = r"D:\Learning\Master\Internship\Datasets\Non_Crack\labels"
+# 定义图片images和标注labels文件夹路径
+image_folder = r""
+label_folder = r""
 
 # 确保 labels 文件夹存在
 os.makedirs(label_folder, exist_ok=True)

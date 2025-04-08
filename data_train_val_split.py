@@ -3,12 +3,12 @@ import shutil
 import random
 
 # 原始数据集路径
-dataset_dir = r"D:\Learning\Master\Internship\Datasets\yolo_crack_datasets"
+dataset_dir = r"\Datasets\yolo_datasets"
 images_dir = os.path.join(dataset_dir, "images")
 labels_dir = os.path.join(dataset_dir, "labels")
 
 # 新的数据集文件夹路径
-new_dataset_dir = r"D:\Learning\Master\Internship\Datasets\yolo_crack_datasets_split"
+new_dataset_dir = r"\Datasets\yolo_crack_datasets_split"
 
 # 目标划分数据集路径
 train_dir = os.path.join(new_dataset_dir, "train")
